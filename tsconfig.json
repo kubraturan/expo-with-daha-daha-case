@@ -1,0 +1,27 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "jsx": "react",
+    "jsx": "react",
+    "jsx": "react",
+    "jsx": "react",
+    "strict": true,
+    "noImplicitReturns": true,
+    "baseUrl": "./",
+    "paths": {
+      "@app/*": ["app/*"],
+      "@api/*": ["api/*"],
+      "@components/*": ["components/*"],
+      "@redux/*": ["redux/*"],
+      "@constants/*": ["constants/*"],
+      "@assetPNG/*": ["assets/images/png/*"],
+      "@assetSVG/*": ["assets/images/svg/*"],
+    },
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+  ],
+}
